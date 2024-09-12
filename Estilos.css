@@ -1,0 +1,167 @@
+
+body {
+    background: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Encabezado {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo1 {
+    position: absolute;
+    width: 8%;
+    top: 10px; /*ajustar distancia según sea necesario*/
+    left: 10px;
+}
+
+ .logo2 {
+     position: absolute;
+     width: 40%;
+     left: 100px;
+     top: 40px;
+ }
+
+ .logo1 + .logo2 {
+     margin-left: 30px; /*espacio entre las 2 imagenes*/
+ }
+ .Menu {
+    position: absolute;
+    top: 40px; /*distancia en relacion con la parte de arriba*/
+    right: 10px;
+    }
+.Menu ul {
+    list-style: none; /*Elimina las viñetas*/
+    padding: 0;
+}
+.Menu ul li {
+    display: inline; /*Permite que los elementos de la lista aparezcan en linea*/
+    margin-right: 20px; /*Espacio entre los elementos del menu*/
+}
+.Menu ul li:last-child {
+    margin-right: 0; /*Elimina el margen derecho del último ekemento*/
+}
+.Menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Encabezado h1 {
+    color: rgb(8, 8, 8); /* Color del texto */
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; /*Se utiliza para que el texto esté centrado, a la derecha o a la izquierda*/
+    }
+
+.Encabezado p {
+    background-color: #e8620f;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+
+}
+.procesoconjunto {
+    font-size: 20px;
+    font-family: tahoma;
+    text-align: center;
+    max-width: 800px;
+    padding: 40px 340px;
+}
+
+h2 {
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.contenedor-seccion1 {
+    background-color:#008ACE;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 40px 340px;
+}
+.contenedor-seccion1 h2 {
+    color: #cdcd4a;
+}
+.contenido-seccion1 {
+    font-size: 20px;
+    font-family: tahoma;
+    text-align: center;
+    max-width: 800px;
+    padding: 40px 340px;
+    text-align: center;
+    color: #ffffff;
+       
+}
+.contenedor-seccion1 img {
+    width: 30%;
+}
+.contenedor-seccion2 {
+    background-color: #cdcd4a;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 40px 340px;
+}
+
+.contenido-seccion2 {
+    font-size: 20px;
+    font-family: tahoma;
+    text-align: center;
+    max-width: 800px;
+    padding: 40px 40px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 800px;
+    text-align: center;
+}
+
+.contenedor-seccion3 {
+   background-color: #e8620f; 
+   padding: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   padding: 40px 340px;
+}
+
+
+ul {
+    list-style-position: inside; /* Mueve la viñeta dentro del contenido */
+    text-align: center; /* Centra el texto */
+    padding-left: 0; /* Elimina el sangrado predeterminado */
+  }
+
+  .galeria {
+    display: flex; /* Usamos flexbox para organizar las imágenes */
+    flex-wrap: wrap; /* Para que las imágenes se ajusten en varias líneas si es necesario */
+    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes en el contenedor */
+  }
+  
+  .galeria figure {
+    margin: 0; /* Elimina el margen predeterminado */
+    text-align: center; /* Centra el texto debajo de cada imagen */
+    max-width: 350px; /* Controla el tamaño máximo de cada figura */
+  }
+  
+  .galeria img {
+    width: 100%; /* Las imágenes se ajustan al ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de las imágenes */
+    border-radius: 8px; /* Bordes redondeados (opcional) */
+  }
+  
+  .galeria figcaption {
+    margin-top: 10px;
+    font-size: 14px; /* Ajusta el tamaño del texto */
+    color: #555; /* Color del texto (opcional) */
+  }
+  
+  footer img {
+    width: 50px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 10px; /* Espacio entre el texto y la imagen */
+  }
