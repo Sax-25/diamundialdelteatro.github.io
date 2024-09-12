@@ -1,0 +1,1 @@
+Este es un trabajo para el Centro Cívico por la Paz de Pococí, en el marco de un proceso conjunto con el Taller Nacional de Teatro, el Liceo de Cariari, la DIGEPAZ. Y busca mostrar el trabajo realizado durante el proceso.
